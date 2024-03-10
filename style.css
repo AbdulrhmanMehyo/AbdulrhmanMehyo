@@ -235,6 +235,7 @@ display: block;
 @media(max-width:1023px){
     .main{
         background-position: 20% 105%;
+        background-attachment: fixed;
         align-items:normal;
  }
  .social-icons{
@@ -280,7 +281,9 @@ body{
 }
 .main{
     background-position: 20% 105%;
+    background-attachment: fixed;
 align-items:normal;
+    
 
 }
 .social-icons{
@@ -313,6 +316,7 @@ header a img {
     }
     .main{
         background-position: 20% 105%;
+        background-attachment: fixed;
     }
     .footer{
         align-items: center;}
