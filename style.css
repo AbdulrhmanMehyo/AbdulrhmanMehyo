@@ -79,6 +79,12 @@ section{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.typelun:last-of-type {
+    animation: type 0.60s infinite;
+ }
+ @keyframes type{
+    to { opacity: .0; }
+ }
 .main-btn{
     color: white;
     background-color: #61c888;
@@ -106,9 +112,7 @@ section{
     margin-left: 7px;
 
 }
-.social-icons{
-    margin-left:40px;
-}
+
 .title{
     display: flex;
     justify-content: center;
