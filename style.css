@@ -234,7 +234,7 @@ display: block;
 }
 @media(max-width:1023px){
     .main{
-        background-position: 26% 85%;
+        background-position: 26% 70%;
         align-items:normal;
  }
  .social-icons{
@@ -279,7 +279,7 @@ body{
     font-size: 12px;
 }
 .main{
-    background-position: 26% 85%;
+    background-position: 26% 70%;
 align-items:normal;
 
 }
@@ -312,7 +312,7 @@ header a img {
 
     }
     .main{
-        background-position: 26% 85%;
+        background-position: 26% 70%;
     }
     .footer{
         align-items: center;}
