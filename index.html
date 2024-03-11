@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+
     <title>Abdulrhman Mehyo</title>
 </head>
-<body onload="typemyname()">
+<body onload="typemyname(),typemymajor(), typedescrip()">
     
     <header>
         
@@ -22,14 +25,14 @@
     <section class="main">
         <div>
            
-            <h2 ><strong id="myname"></strong><br><span>Front-End Web Developer</span></h2>
-            <h3>I build websites in <strong id = "text"></strong><span class="typelun">|</span></h3>
+            <h2 ><strong id="myname"></strong><br><span id="mymajor"></span></h2>
+            <h3><strong id="descrip"> </strong><strong id = "text"></strong><span class="typelun">|</span></h3>
             <a href="#projects" class="main-btn"> view my work</a>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/abdulrhmanmehyo/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/abdulrhmanmehyo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/AbdulrhmanMehyo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/AbdulrhmanMehyo"><i class="fa-brands fa-facebook"></i></a>
 
             </div>
         </div>
@@ -136,68 +139,15 @@
     <footer class="footer">
         <p class="footer-title"><span>© 2024 MEHYO.</span> All rights reserved.</p>
         <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/abdulrhmanmehyo/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/abdulrhmanmehyo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/AbdulrhmanMehyo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/AbdulrhmanMehyo"><i class="fa-brands fa-facebook"></i></a>
 
         </div>
     </footer>
 
-    <script>
-        var j = 0;
-var txt = 'Hello, I am Abdulrhman Mehyo';
-var speed = 50;
-
-function typemyname() {
-  if (j < txt.length) {
-    document.getElementById("myname").innerHTML += txt.charAt(j);
-    j++;
-    setTimeout(typemyname, speed);
-  }
-
-}
-  
-
-
-const words = ["HTML","CSS","JavaScript"];
-      let i = 0;
-      let counter;
-      function typeNow() {
-         let word = words[i].split("");
-         var loopTyping = function() {
-            if (word.length > 0) {
-               document.getElementById('text').innerHTML += word.shift();
-            } else {
-               deleteNow();
-               return false;
-            };
-            counter = setTimeout(loopTyping, 500);
-         };
-         loopTyping();
-      };
-      function deleteNow() {
-         let word = words[i].split("");
-         var loopDeleting = function() {
-            if (word.length > 0) {
-               word.pop();
-               document.getElementById('text').innerHTML = word.join("");
-            } else {
-               if (words.length > (i + 1)) {
-                  i++;
-               } else {
-                  i = 0;
-               };
-               typeNow();
-               return false;
-            };
-            counter = setTimeout(loopDeleting, 200);
-         };
-         loopDeleting();
-      };
-      typeNow();
-
-     </script>
+    
 
 </body>
 
