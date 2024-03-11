@@ -25,7 +25,7 @@ function typemymajor() {
 }
   
 var d = -55;
-var txtd = 'build websites in ';
+var txtd = 'I build websites in ';
 var speedd = 60;
 
 function typedescrip() {
