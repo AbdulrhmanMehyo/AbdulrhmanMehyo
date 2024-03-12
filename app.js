@@ -25,7 +25,7 @@ function typemymajor() {
 }
   
 var d = -55;
-var txtd = 'I build websites in ';
+var txtd = 'build websites in ';
 var speedd = 60;
 
 function typedescrip() {
@@ -77,3 +77,9 @@ const words = ["HTML","CSS","JavaScript"];
       };
       typeNow();
   }}
+
+function myindicator(){
+    document.getElementById("indicator").innerHTML="|";
+}
+
+setTimeout(myindicator,4000);
