@@ -10,7 +10,7 @@
 
     <title>Abdulrhman Mehyo</title>
 </head>
-<body onload="typemyname(),typemymajor(), typedescrip()">
+<body onload="typemyname(),typemymajor(), typedescrip(),setTimeout()">
     
     <header>
         
@@ -24,8 +24,8 @@
 
     <section class="main">
         <div >
-            <h2 ><strong id="myname"></strong><br></h2>
-            <h3><strong id="descrip"> </strong><strong id = "text"></strong></h3>
+            <h2 ><strong id="myname"></strong><br><span id="mymajor"></span></h2>
+            <h3><strong id="descrip"> </strong><strong id = "text"></strong><span id="indicator" class="typelun"></span></h3>
             <a href="#projects" class="main-btn"> view my work</a>
             <div class="social-icons">
             <a href="https://www.linkedin.com/in/abdulrhmanmehyo/"><i class="fa-brands fa-linkedin"></i></a>
@@ -42,33 +42,25 @@
         <div class="content">
             <div class="card">
                 <div class="icon">
-                    <img alt="HTML & CSS Responsive Web Design" class="icon"src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fbenefit%2Fcontent%2Fimage_file%2Fimage%2F1296644%2F01-HTML_and_CSS_Responsive_Web_Design-1a7d52e582f14fbd8226197b4a80e1f7.svg">
+                    <img alt="HTML & CSS Responsive Web Design" class="icon" src="./images/html&css.svg">
                 </div>
                 <div class="info">
-                    <h3>HTML & CSS Responsive Web Design</h3>
-                    <p>Enterprise-class websites need consistent colors, fonts, and design to match the organization's branding guidelines. Toptal’s front-end developers are experts at designing responsive websites, with CSS at the core of front end development alongside JavaScript and HTML.</p>
+                    <h3>HTML/CSS development</h3>
+                    <p>I can provide a pure HTML/CSS-based front-end. It involves creating a static landing page with fixed content, optimized for SEO and different screen sizes. Using HTML 5.0, CSS 3.0, and JavaScript ES6 stack.</p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="icon">
-                    <img alt="Javascript Development" class="icon"src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fbenefit%2Fcontent%2Fimage_file%2Fimage%2F1296641%2F04-Javascript_Development-3574f5a688ee121810ca0870bf9704e5.svg">
+                    <img alt="Javascript Development" class="icon"src="./images/Javascript.svg">
                 </div>
                 <div class="info">
                     <h3>Javascript Development</h3>
-                    <p>JavaScript frameworks sit at the heart of any modern website. Toptal JavaScript developers use their extensive experience with core JavaScript development and the newest frameworks and libraries to build dynamic and responsive websites.</p>
+                    <p>JavaScript frameworks sit at the heart of any modern website.I use my extensive experience with core JavaScript development and the newest frameworks and libraries to build dynamic and responsive websites.</p>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="icon">
-                    <img alt="PSD to Bootstrap Services" class="icon"src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fbenefit%2Fcontent%2Fimage_file%2Fimage%2F1296640%2F05-PSD_to_Bootstrap_Services-c7e17a1a23b1e8bd274923f1ce493fd0.svg">
-                </div>
-                <div class="info">
-                    <h3>PSD to Bootstrap Services</h3>
-                    <p>optal front-end developers convert PSD, Sketch, Ai, and Adobe XD files into pixel-perfect standards that are compliant with HTML5/CSS3/Bootstrap3/4 templates.</p>
-                </div>
-            </div>
+            
 
         </div>
 
@@ -85,7 +77,7 @@
                     <p class="project-category">website in HTML and CSS</p>
                     <strong class="project-title">
                         <span>COVID 19</span>
-                        <a href="https://abdulrhmanmehyo.github.io/Coronavirus/" class="more-details">More Details</a>
+                        <a href="https://abdulrhmanmehyo.github.io/Coronavirus/" class="more-details">See More</a>
                     </strong>
                 </div>
 
@@ -99,7 +91,7 @@
                     <p class="project-category">website in HTML and CSS</p>
                     <strong class="project-title">
                         <span>COVID 19</span>
-                        <a href="https://abdulrhmanmehyo.github.io/Coronavirus/" class="more-details">More Details</a>
+                        <a href="https://abdulrhmanmehyo.github.io/Coronavirus/" class="more-details">See More</a>
                     </strong>
                 </div>
 
@@ -110,7 +102,7 @@
 
 
     <section class="card-contact" id="contact">
-        <h2 class="title">Contact me</h2>
+        <h2 class="title">Contact me  </h2>
         <div class="content">
             <a href="tel:+497662477243" > <div class="card" >
                 <div class="icon">
