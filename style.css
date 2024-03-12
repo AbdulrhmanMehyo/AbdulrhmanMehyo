@@ -157,15 +157,22 @@ display: block;
   color: #0f256e;
   
 }
-.info{
+.card .info{
+    text-align: justify;
+    
+}
+.card-contact .info{
     text-align: center;
+    
 }
 .info h3{
     color: #0f256e;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+    text-align: center;
 }
+
 .projects{
     background-color:#0f256e ;
 }
@@ -238,7 +245,7 @@ display: block;
 }
 @media(max-width:1023px){
     .main{
-        background-position: 20% 85%;
+        background-position: 20% 140%;
         align-items:normal;
  }
  .social-icons{
@@ -283,7 +290,7 @@ body{
     font-size: 12px;
 }
 .main{
-    background-position: 20% 85%;
+    background-position: 20% 65%;
     
 align-items:normal;
     
