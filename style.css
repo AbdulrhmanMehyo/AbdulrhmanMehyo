@@ -245,7 +245,7 @@ display: block;
 }
 @media(max-width:1023px){
     .main{
-        background-position: 20% 75%;
+        background-position: 20% 90%;
         align-items:normal;
  }
  .social-icons{
