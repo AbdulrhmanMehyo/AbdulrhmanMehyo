@@ -56,6 +56,7 @@ section{
     background-position:  right;
     background-attachment: fixed;
     background-color: #0f256e;
+
     
 }
 .main h2{
@@ -373,5 +374,13 @@ header a img {
     transform: scale(1.1);
 
 }
+.bilanguage::after {
+    content: attr(data-en);
+  }
 
-  
+ #changelang{
+    color:#61c888;
+ }
+ #changelang:hover{
+    color:#0f256e;
+}
