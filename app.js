@@ -83,3 +83,15 @@ function myindicator(){
 }
 
 setTimeout(myindicator,4000);
+
+
+var currentlanguage = 'en'
+function changelang(){
+if (currentlanguage == 'en'){
+document.head.insertAdjacentHTML('beforeend', '<style>.bilanguage::after {content: attr(data-du);}</style>');
+currentlanguage = 'du'
+} else {
+document.head.insertAdjacentHTML('beforeend', '<style>.bilanguage::after {content: attr(data-en);}</style>');
+currentlanguage = 'en'
+}
+}
