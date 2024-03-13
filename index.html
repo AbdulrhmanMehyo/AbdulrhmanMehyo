@@ -16,18 +16,22 @@
     <header>
         
         <a href="#" class="logo"> <img alt="logo" src="./images/logo.png"  ></a>
-        </nav>
+
         <nav class="navigation">
-            <a href="#services">services</a>
-            <a href="#projects">projects</a>
-            <a href="#contact">contact</a>
+            <a href="#services" class='bilanguage' data-en='Services' data-du='Dienste'></a>
+            <a href="#projects" class='bilanguage' data-en='Projects' data-du='Projekte'></a>
+            <a href="#contact" class='bilanguage' data-en='Contact' data-du='Kontakt'></a>
+            <a href="#"  id = "changelang" class='bilanguage' onclick='changelang()' data-en='Englisch' data-du='Deutsch'></a>
+
+        </nav>
+
     </header>
 
     <section class="main">
         <div >
-            <h2 ><strong id="myname"></strong><br><span id="mymajor"></span></h2>
-            <h3><strong id="descrip"> </strong><strong id = "text"></strong><span id="indicator" class="typelun"></span></h3>
-            <a href="#projects" class="main-btn"> view my work</a>
+            <h2 ><strong id="myname" ></strong><br><span id="mymajor"></span></h2>
+            <h3><strong id="descrip"></strong><strong id = "text"></strong><span id="indicator" class="typelun"></span></h3>
+            <a href="#projects" class="main-btn bilanguage"  data-en='view my work' data-du='Sehen Sie sich meine Arbeit an'></a>
             <div class="social-icons">
             <a href="https://www.linkedin.com/in/abdulrhmanmehyo/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://www.instagram.com/abdulrhmanmehyo/"><i class="fa-brands fa-instagram"></i></a>
@@ -39,15 +43,15 @@
     </section>
 
     <section class="cards" id="services">
-        <h2 class="title">Services</h2>
+        <h2 class="title bilanguage"  data-en='Services' data-du='Dienste'></h2>
         <div class="content">
             <div class="card">
                 <div class="icon">
                     <img alt="HTML & CSS Responsive Web Design" class="icon" src="./images/html&css.svg">
                 </div>
                 <div class="info">
-                    <h3>HTML/CSS development</h3>
-                    <p>I can provide a pure HTML/CSS-based front-end. It involves creating a static landing page with fixed content, optimized for SEO and different screen sizes. Using HTML 5.0, CSS 3.0, and JavaScript ES6 stack.</p>
+                    <h3 class='bilanguage' data-en='HTML/CSS Development' data-du='HTML/CSS Entwicklung'></h3>
+                    <p class='bilanguage' data-en='I can provide a pure HTML/CSS-based front-end. It involves creating a static landing page with fixed content, optimized for SEO and different screen sizes. Using HTML 5.0, CSS 3.0, and JavaScript ES6 stack.' data-du='Ich kann ein reines HTML/CSS-basiertes Frontend bereitstellen. Dabei geht es um die Erstellung einer statischen Landingpage mit festem Inhalt, optimiert für SEO und verschiedenen Bildschirmgrößen. Verwendung von HTML 5.0, CSS 3.0 und JavaScript ES6-Stack.'></p>
                 </div>
             </div>
 
