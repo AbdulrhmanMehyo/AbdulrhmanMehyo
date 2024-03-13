@@ -343,7 +343,9 @@ header a img {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     bottom: 30%;
+    opacity: 0.3;
     transition: 0.7s ease;
+
 }
 .contact .fa-brands.fa-github {
     position: fixed;
@@ -357,7 +359,9 @@ header a img {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     bottom: 20%;
+    opacity: 0.3;
     transition: 0.7s ease;
+    
 }
 .contact .fa-brands.fa-github:hover{
 
