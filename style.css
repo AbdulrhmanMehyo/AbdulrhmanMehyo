@@ -236,7 +236,7 @@ display: block;
     align-items: center;
 }
 .footer-title{
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 600;
 
 }
@@ -282,7 +282,8 @@ section{
     align-items: center;
 }
 .footer{
-    align-items: center;}
+    align-items: center;
+font-size: 0.9em;}
 
 }
 @media(max-width:641px){
@@ -304,7 +305,8 @@ align-items:normal;
 
 }
 .footer{
-align-items: center;}
+align-items: center;
+font-size: 0.9em;}
 
 header a img {
     height: 30px;width:50px; display: block;
@@ -330,6 +332,7 @@ header a img {
     }
     .footer{
         align-items: center;}
+    font-size: 0.9em;
 }
 .contact .fa-brands.fa-linkedin {
     position: fixed;
