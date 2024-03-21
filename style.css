@@ -207,7 +207,7 @@ display: block;
 }
 .project-image img{
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     
 }
 .project-image img:hover{
@@ -215,6 +215,9 @@ display: block;
 }
 .project-info{
     padding: 1em;
+}
+.project-info span{
+    color: #0f256e;
 }
 .project-category{
     font-size: 0.8em;
