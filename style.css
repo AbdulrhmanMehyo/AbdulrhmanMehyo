@@ -316,7 +316,8 @@ align-items:normal;
 
 }
 .footer{
-align-items: center;}
+align-items: center;
+font-size: 0.9em;}
 
 header a img {
     height: 30px;width:50px; display: block;
@@ -332,6 +333,10 @@ header a img {
 }    
 }
 @media(max-width:300px){
+    header{
+        padding: 3px 7px;
+        font-size: 0.8em;
+    }
     body{
         font-size: 10px;
 
@@ -341,7 +346,9 @@ header a img {
         
     }
     .footer{
-        align-items: center;}
+        align-items: center;
+        font-size: 0.7em;
+    }
 }
 .contact .fa-brands.fa-linkedin {
     position: fixed;
