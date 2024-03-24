@@ -54,7 +54,7 @@ section{
     display: flex;
     align-items: center;
     background: url(https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fservice_centric_page%2Fhero_section%2F5991328%2Fbackground_image%2Foptimized%2F55-Web-f22b4a82d6c56c314539f21ed4654f5e.svg)no-repeat;
-    background-size: 50%;
+    background-size: 500px;
     background-position:  right;
     background-attachment: fixed;
     background-color: #0f256e;
@@ -414,7 +414,7 @@ header a img {
             width:70px; 
         }
         .contact .fa-brands.fa-github {
-            bottom: 40%;   
+            bottom: 50%;   
         }
         .contact .fa-brands.fa-linkedin {
             
