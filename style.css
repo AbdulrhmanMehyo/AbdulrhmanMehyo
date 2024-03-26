@@ -12,7 +12,7 @@ header{
 background-color: white;
 width: 100%;
 position: fixed;
-z-index: 999;
+z-index: 998;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -54,7 +54,7 @@ section{
     display: flex;
     align-items: center;
     background: url(https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fservice_centric_page%2Fhero_section%2F5991328%2Fbackground_image%2Foptimized%2F55-Web-f22b4a82d6c56c314539f21ed4654f5e.svg)no-repeat;
-    background-size: 500 px;
+    background-size: 50%;
     background-position:  right;
     background-attachment: fixed;
     background-color: #0f256e;
@@ -257,6 +257,9 @@ display: block;
 .footer-title span{
     color: #61c888;
 }
+.footer{
+    height: 85px;
+}
 @media(max-width:1023px){
     .main{
         background-position: 20% 80%;
@@ -414,7 +417,7 @@ header a img {
             width:70px; 
         }
         .contact .fa-brands.fa-github {
-            bottom: 45%;   
+            bottom: 40%;   
         }
         .contact .fa-brands.fa-linkedin {
             
@@ -423,7 +426,7 @@ header a img {
         }
         .main{
            
-            background-size: 55%;
+            background-size: 60%;
             background-position:  bottom right ;
            }
             .main h2{
@@ -460,7 +463,7 @@ font-size: 3em;
 }
 .info h3{
     
-    font-size: 1em;   
+    font-size: 1.3em;   
 }
 .project-card{
     min-height: 10em;
@@ -484,3 +487,44 @@ font-size: 3em;
 }
 
 }
+
+.loader {
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+    clip-path: inset(-90px);
+    color: #0F256E;
+    box-shadow: -120px 30px,-60px 30px,-60px 30px;
+    transform: translateY(-30px);
+    animation: loader 5s infinite linear;
+    z-index: 999;
+    position: relative;
+    display: inline-block;
+
+
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+
+  @keyframes loader{ 
+    16.67% {box-shadow:-120px 30px,-120px 30px,38px 30px}
+    33.33% {box-shadow:-120px 30px,  0px 30px,38px 30px}
+    40%,60%{box-shadow:-38px 30px,  0px 30px,38px 30px}
+    66.67% {box-shadow:-38px 30px,  0px 30px,120px 30px}
+    83.33% {box-shadow:-38px 30px, 120px 30px,120px 30px}
+    100%   {box-shadow: 120px 30px, 120px 30px,120px 30px}
+  }
+  
