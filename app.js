@@ -101,4 +101,22 @@ currentlanguage = 'du'
 document.head.insertAdjacentHTML('beforeend', '<style>.bilanguage::after {content: attr(data-en);}</style>');
 currentlanguage = 'en'
 }
-}
+};
+
+//loader
+$(window).on("load", (function() {
+   $(".loader-wrapper").fadeOut(1e3),
+   setTimeout((function() {
+
+       document.documentElement.style.overflow = "visible",
+       timerBar();
+   }
+   ), 900);
+   
+ }
+ )),
+ window.onerror = function() {
+   document.querySelector(".loader-wrapper").style.display = "none",
+   document.documentElement.style.overflow = "visible"
+ }
+ ;
