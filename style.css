@@ -3,7 +3,7 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     scroll-behavior: smooth;
 
 }
@@ -426,7 +426,7 @@ header a img {
         }
         .main{
            
-            background-size: 60%;
+            background-size: 50%;
             background-position:  bottom right ;
            }
             .main h2{
