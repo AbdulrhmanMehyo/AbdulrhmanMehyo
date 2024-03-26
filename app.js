@@ -1,3 +1,21 @@
+//loader
+$(window).on("load", (function() {
+   $(".loader-wrapper").fadeOut(1e3),
+   setTimeout((function() {
+
+       document.documentElement.style.overflow = "visible",
+       timerBar();
+   }
+   ), 900);
+   
+ }
+ )),
+ window.onerror = function() {
+   document.querySelector(".loader-wrapper").style.display = "none",
+   document.documentElement.style.overflow = "visible"
+ }
+ ;
+
 var j = 0;
 var txt = 'Hello, I am Abdulrhman Mehyo';
 var speed = 60;
@@ -103,20 +121,4 @@ currentlanguage = 'en'
 }
 };
 
-//loader
-$(window).on("load", (function() {
-   $(".loader-wrapper").fadeOut(1e3),
-   setTimeout((function() {
 
-       document.documentElement.style.overflow = "visible",
-       timerBar();
-   }
-   ), 900);
-   
- }
- )),
- window.onerror = function() {
-   document.querySelector(".loader-wrapper").style.display = "none",
-   document.documentElement.style.overflow = "visible"
- }
- ;
