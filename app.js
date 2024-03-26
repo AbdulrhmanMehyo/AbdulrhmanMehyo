@@ -1,4 +1,4 @@
-var j = -5;
+var j = 0;
 var txt = 'Hello, I am Abdulrhman Mehyo';
 var speed = 60;
 
@@ -11,7 +11,7 @@ function typemyname() {
 
 }
 
-var m = -40;
+var m = -35;
 var txtm = 'Front-End Web Developer';
 var speedm = 60;
 
@@ -24,7 +24,7 @@ function typemymajor() {
 
 }
   
-var d = -60;
+var d = -55;
 var txtd = 'I build websites in ';
 var speedd = 60;
 
