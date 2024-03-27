@@ -1,21 +1,3 @@
-//loader
-$(window).on("load", (function() {
-   $(".loader-wrapper").fadeOut(1e3),
-   setTimeout((function() {
-
-       document.documentElement.style.overflow = "visible",
-       timerBar();
-   }
-   ), 900);
-   
- }
- )),
- window.onerror = function() {
-   document.querySelector(".loader-wrapper").style.display = "none",
-   document.documentElement.style.overflow = "visible"
- }
- ;
-
 var j = 0;
 var txt = 'Hello, I am Abdulrhman Mehyo';
 var speed = 60;
@@ -120,11 +102,22 @@ document.head.insertAdjacentHTML('beforeend', '<style>.bilanguage::after {conten
 currentlanguage = 'en'
 }
 };
-var oldWidth;
-  $(window).resize(function() {
-  if (mobilecheck==false || window.innerWidth!=oldWidth) {
-     changeSize(window.innerWidth,window.innerHeight);      
+//loader
+$(window).on("load", (function() {
+   $(".loader-wrapper").fadeOut(1e3),
+   setTimeout((function() {
+
+       document.documentElement.style.overflow = "visible",
+       timerBar();
    }
-   oldWidth = window.innerWidth;
-}
+   ), 900);
+   
+ }
+ )),
+ window.onerror = function() {
+   document.querySelector(".loader-wrapper").style.display = "none",
+   document.documentElement.style.overflow = "visible"
+ }
+ ;
+
 
