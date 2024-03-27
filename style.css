@@ -465,7 +465,7 @@ header a img {
         }
         header a img {
             height: 50px;
-            width:90px; 
+            width:85px; 
         }
         .contact .fa-brands.fa-github {
             bottom: 45%;   
@@ -536,7 +536,7 @@ font-size: 3em;
 
 }
 .footer{
-    height: 50px;
+    height: 40px;
 }
 
 }
