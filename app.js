@@ -100,7 +100,7 @@ function myindicator(){
     document.getElementById("indicator").innerHTML="|";
 }
 
-setTimeout(myindicator,4000);
+setTimeout(myindicator,4500);
 
 
 var currentlanguage = 'en'
