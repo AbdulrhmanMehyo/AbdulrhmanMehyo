@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box; 
     scroll-behavior: smooth;
+    height: auto;
+
 
 }
-body{
-    height: 100dvh;
-}
+
 header{
 
 background-color: white;
