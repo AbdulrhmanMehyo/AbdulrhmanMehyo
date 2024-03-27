@@ -120,5 +120,11 @@ document.head.insertAdjacentHTML('beforeend', '<style>.bilanguage::after {conten
 currentlanguage = 'en'
 }
 };
-
+var oldWidth;
+  $(window).resize(function() {
+  if (mobilecheck==false || window.innerWidth!=oldWidth) {
+     changeSize(window.innerWidth,window.innerHeight);      
+   }
+   oldWidth = window.innerWidth;
+}
 
